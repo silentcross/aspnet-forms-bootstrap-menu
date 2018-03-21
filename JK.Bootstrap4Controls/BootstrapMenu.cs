@@ -18,7 +18,7 @@ namespace JK.Bootstrap4Controls
     [DefaultEvent("MenuItemClick")]
     [SupportsEventValidation]
     [ToolboxData("<{0}:BootstrapMenu runat=\"server\"></{0}:BootstrapMenu>")]
-    public sealed class Bootstrap4Menu : Menu
+    public sealed class BootstrapMenu : Menu
     {
         private const string hightlightActiveKey = "HighlightActive";
 
